@@ -1,0 +1,108 @@
+/*JSC - ManabJB*/
+body
+{
+    background-color: dodgerblue;
+}
+.container
+{
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.main
+{
+    background:linear-gradient(gray 30%, #ddf);
+    border-radius: 10px;
+    backdrop-filter:blur( 14.5px );
+}
+.field
+{
+    color: whitesmoke;
+    font-size: 2rem;
+    border-radius: 10px;
+    font-family: lato;
+}
+.text
+{
+    height: 200px;
+    width: 270px;
+    resize: none;
+    outline: none;
+    background-color: whitesmoke;
+    color: gray;
+    border-radius: 10px;
+    border-bottom: rebeccapurple;
+    font-size: 1rem;
+    font-family: lato;
+}
+.dark
+{
+    background-color: black;
+    color: gray;
+    border-color: black;
+}
+.btn
+{
+    background-color: dodgerblue;
+    height: 40px;
+    width: 60px;
+    outline: none;
+    border-color: transparent;
+    color: whitesmoke;
+    border-radius: 10px;
+    border: none;
+    font-family: lato;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+.btn:active
+{
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+.light
+{
+    background-color: dodgerblue;
+    height: 40px;
+    width: 60px;
+    outline: none;
+    border-color: transparent;
+    color: whitesmoke;
+    border-radius: 10px;
+    text-decoration: none;
+    border: none;
+    font-family: lato;
+    margin-right: 5px;
+    font-size: 1rem;
+}
+.lights
+{
+    color: dodgerblue;
+    background-color: whitesmoke;
+}
+hr
+{
+    color: whitesmoke;
+}
+code
+{
+    font-size: 16px;
+    font-family: lato;
+}
+img
+{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px black;
+}
+.abar
+{
+    display: flex;
+    font-size: 1rem;
+    font-family: lato;
+    align-items: center;
+    gap: 15px;
+}
